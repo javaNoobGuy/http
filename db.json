@@ -1,0 +1,68 @@
+{
+  "empresas": [
+    {
+      "nome": "adasd",
+      "representante": "adasdsad",
+      "email": "juanpbrs2@gmail.com",
+      "telefone": "974194424",
+      "cep": "08693010",
+      "numero": "2",
+      "produtos": [
+        "Plástico ABS",
+        "Plástico PVC"
+      ],
+      "producaoMensal": "233",
+      "formaDePagamento": {},
+      "id": 1
+    },
+    {
+      "nome": "adasd",
+      "representante": "adasdsad",
+      "email": "nascimentomanu4@gmail.com",
+      "telefone": "974194424",
+      "cep": "08693010",
+      "numero": "2",
+      "produtos": [
+        "Plástico ABS",
+        "Plástico PP"
+      ],
+      "producaoMensal": "244",
+      "formaDePagamento": {},
+      "id": 2
+    },
+    {
+      "nome": "adasd",
+      "representante": "adasdsad",
+      "email": "nascimentomanu4@gmail.com",
+      "telefone": "974194424",
+      "cep": "08693010",
+      "numero": "2",
+      "produtos": [
+        "Plástico ABS",
+        "Plástico PVC"
+      ],
+      "producaoMensal": "233",
+      "formaDePagamento": {},
+      "id": 3
+    },
+    {
+      "nome": "adasd",
+      "representante": "adasdsad",
+      "email": "lucas@gmail.com",
+      "telefone": "974194424",
+      "cep": "08693010",
+      "numero": "2",
+      "produtos": [],
+      "producaoMensal": "",
+      "formaDePagamento": "Boleto Bancario",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "nome": "Lucas",
+      "email": "lucas@gmail.com",
+      "senha": "123456"
+    }
+  ]
+}

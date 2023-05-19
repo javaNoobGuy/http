@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <input type="text" id="id" placeholder="id"><br>
+        <input type="text" placeholder="Nome" id="nomEmpresa"><br>
+        <input type="text" placeholder="Representante da Empresa" id="representante"><br>
+        <input type="text" placeholder="email" id="email"><br>
+        <input type="text" placeholder="telefone" id="telefone"><br>
+        <input type="text" placeholder="cep" id="cep"><br>
+        <input type="text" placeholder="Número" id="n"><br>
+
+        <label>Produtos Oferecidos</label><br>
+        <input type="checkbox" name="abs" id="abs" value="Plástico ABS"><label for="abs">Plástico ABS</label>
+        <input type="checkbox" name="nylon" id="nylon" value="Nylon"><label for="nylon">Nylon</label>
+        <input type="checkbox" name="pp" id="pp" value="Plástico PP"><label for="pp">Plástico PP</label>
+        <input type="checkbox" name="pvc" id="pvc" value="Plástico PVC"><label for="pvc">Plástico PVC</label><br>
+        <input type="text" placeholder="Volume de Produção Mensal" id="pm"><br>
+
+        <select name="formaPagamento" id="formaPagamento">
+
+            <option value="Boleto Bancario">Boleto Bancario</option>
+            <option value="Cartão de Crédito">Cartão de Crédito</option>
+            <option value="PIX">PIX</option>
+
+        </select><br>
+
+        <input type="button" value="Atualizar Dados" onclick="atualizarCadastro()">
+        
+    </form>
+    <button onclick="puxarEmpresa()">Encontrar Empresa</button><br>
+    <a href="control.html"><button>Home</button></a>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
