@@ -2,7 +2,7 @@ function login(){
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
 
-    fetch(`http://localhost:3000/users`,{
+    fetch(`https://testelegak-juanarmazenamento79.b4a.run/users`,{
         method : 'GET'
 
     }).then(
@@ -68,7 +68,7 @@ function preencherInputs(empresa){
 const getById = async() =>{
     let id = document.getElementById('id').value;
 
-    fetch(`http://localhost:3000/empresas/${id}`).then(response => response.json()).then( data =>{
+    fetch(`https://testelegak-juanarmazenamento79.b4a.run/empresas/${id}`).then(response => response.json()).then( data =>{
         preencherInputs(data)
         console.log(data);
     })
@@ -91,7 +91,7 @@ const update = async(id)=> {
     }
 
 
-    fetch(`http://localhost:3000/empresas/${id}`, init)
+    fetch(`https://testelegak-juanarmazenamento79.b4a.run/empresas/${id}`, init)
 
 }
 
@@ -163,7 +163,7 @@ const deleteE = async(id) =>{
     }
 
 
-    fetch(`http://localhost:3000/empresas/${id}`, init)
+    fetch(`https://testelegak-juanarmazenamento79.b4a.run/empresas/${id}`, init)
 
 }
 
@@ -184,7 +184,7 @@ const post = async() =>{
     }
 
 
-    fetch("http://localhost:3000/empresas", init)
+    fetch("https://testelegak-juanarmazenamento79.b4a.run/empresas", init)
 
 
 
